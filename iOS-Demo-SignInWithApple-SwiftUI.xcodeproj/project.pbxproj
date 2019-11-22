@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BDCCD6022A7C632006DFB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCCD5F22A7C632006DFB9F /* AppDelegate.swift */; };
 		5BDCCD6222A7C632006DFB9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCCD6122A7C632006DFB9F /* SceneDelegate.swift */; };
 		5BDCCD6422A7C632006DFB9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCCD6322A7C632006DFB9F /* ContentView.swift */; };
 		5BDCCD6622A7C633006DFB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDCCD6522A7C633006DFB9F /* Assets.xcassets */; };
@@ -36,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		5BDCCD5C22A7C632006DFB9F /* iOS-Demo-SignInWithApple-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Demo-SignInWithApple-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BDCCD5F22A7C632006DFB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BDCCD6122A7C632006DFB9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BDCCD6322A7C632006DFB9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5BDCCD6522A7C633006DFB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				5BDCCD9222A7C68B006DFB9F /* iOS-Demo-SignInWithApple-SwiftUI.entitlements */,
-				5BDCCD5F22A7C632006DFB9F /* AppDelegate.swift */,
 				5BDCCD6122A7C632006DFB9F /* SceneDelegate.swift */,
 				5BDCCD6322A7C632006DFB9F /* ContentView.swift */,
 				5BDCCD6522A7C633006DFB9F /* Assets.xcassets */,
@@ -259,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BDCCD9422A7C775006DFB9F /* SignInWithAppleButton.swift in Sources */,
-				5BDCCD6022A7C632006DFB9F /* AppDelegate.swift in Sources */,
 				5BDCCD6222A7C632006DFB9F /* SceneDelegate.swift in Sources */,
 				5BDCCD6422A7C632006DFB9F /* ContentView.swift in Sources */,
 			);

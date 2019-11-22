@@ -36,17 +36,18 @@ struct ContentView : View {
   
   var body: some View {
     VStack {
-      if $credentials.value == nil {
+      if $credentials.wrappedValue == nil {
         SignInWithAppleButton(credentials: $credentials)
-      } else if $credentials.value!.isSuccess
+      }
+      else if $credentials.wrappedValue!.isSuccess
       {
-        Text("User: \($credentials.value!.values!.user)")
-        Text("Given name: \($credentials.value!.values?.givenName ?? "")")
-        Text("Family name: \($credentials.value!.values?.familyName ?? "")")
-        Text("Email: \($credentials.value!.values?.email  ?? "")")
-      } else {
-        Text($credentials.value!.error!.localizedDescription)
-          .color(.red)
+        Text("User: \($credentials.wrappedValue!.values!.user)")
+        Text("Given name: \($credentials.wrappedValue!.values?.givenName ?? "")")
+        Text("Family name: \($credentials.wrappedValue!.values?.familyName ?? "")")
+        Text("Email: \($credentials.wrappedValue!.values?.email  ?? "")")
+      }
+      else {
+        Text($credentials.wrappedValue!.error!.localizedDescription).foregroundColor(.red)
       }
     }
   }
